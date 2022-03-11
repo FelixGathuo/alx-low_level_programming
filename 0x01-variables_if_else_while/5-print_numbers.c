@@ -2,7 +2,7 @@
 
 /**
  *
- * main print numbers 0-9
+ * main - print numbers 0-9
  *
  * Return: (0) Success
  */
