@@ -8,8 +8,10 @@
  */
 int main(void)
 {
-int x;
-while (x < 10)
-printf("%d\n", x);
+int i;
+while (i < 10)
+{
+printf("%d\n", i);
+}
 return (0);
 }
