@@ -1,8 +1,7 @@
 #include <stdio.h>
 
 /**
- *
- * main - print numbers 0-9
+ * main - Entry point
  *
  * Return: (0) Success
  */
