@@ -11,7 +11,7 @@ i = 10;
 while (i < 10)
 {
 a = (int) i;
-putchar("%d", a);
+putchar(i + '0');
 i++;
 }
 putchar('\n');
