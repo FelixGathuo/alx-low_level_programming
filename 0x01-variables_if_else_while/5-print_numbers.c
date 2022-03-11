@@ -9,7 +9,7 @@
 int main(void)
 {
 int x;
-for (x = 0; x < 10; x++);
+while (x < 10)
 printf("%d\n", x);
 return (0);
 }
