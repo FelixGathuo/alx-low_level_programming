@@ -11,7 +11,9 @@ i = 97;
 while (i < 123)
 {
 if (!((i == 69 || i == 81)))
+{
 putchar(i);
+}
 i++;
 }
 putchar('\n');
