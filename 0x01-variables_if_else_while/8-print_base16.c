@@ -8,7 +8,7 @@ int main(void)
 {
 int i;
 char j;
-j = 'a'
+j = 'a';
 i = 10;
 while (i < 10)
 {
