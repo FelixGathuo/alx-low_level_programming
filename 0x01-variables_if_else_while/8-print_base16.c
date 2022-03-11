@@ -6,20 +6,12 @@
  */
 int main(void)
 {
-int i;
-char j;
-j = 'a';
-i = 10;
-while (i < 10)
-{
-putchar(i + '0');
-i++;
-}
-while (j < 'f')
-{
-putchar(j);
-j++;
-}
+char i;
+for (i = '0'; i < '10'; i++)
+putchar(i);
+for (i = 'a'; i < 'g'; i++)
+putchar(i);
+
 putchar('\n');
 return (0);
 }
