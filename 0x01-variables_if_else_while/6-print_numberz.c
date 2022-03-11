@@ -10,7 +10,8 @@ int i;
 i = 10;
 while (i < 10)
 {
-putchar("%d", int (i));
+a = int (i)
+putchar("%d", a);
 i++;
 }
 putchar('\n');
