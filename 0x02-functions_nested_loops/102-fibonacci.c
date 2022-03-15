@@ -14,7 +14,7 @@ int main()
      c = a + b;
      a = b;
      b = c;
-     count++
+     count++;
    }
 return (0);
 }
