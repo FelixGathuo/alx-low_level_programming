@@ -8,7 +8,7 @@
 int main()
 {
    long int a = 1, b = 2, c, count = 0;
-   while (count < 50)
+   while (count < 49)
    {
       printf("%lu", a);
       c = a + b;
