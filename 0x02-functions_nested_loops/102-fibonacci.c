@@ -5,7 +5,7 @@
 *
 * Return: Always 0.
 */
-int main()
+int main(void)
 {
 long int a = 1, b = 2, c, count = 0;
 while (count < 49)
