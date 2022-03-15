@@ -7,7 +7,7 @@
 */
 int main()
 {
-    int a = 1, b = 2, c, count = 0;
+   long int a = 1, b = 2, c, count = 0;
    while (count < 50)
    {
      printf("%d", a);
