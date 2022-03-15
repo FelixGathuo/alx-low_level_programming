@@ -17,7 +17,7 @@ int main()
       printf("%c%c", ',', ' ');
       count++;
    }
-printf("%d", a);
+printf("%lu", a);
 printf("\n");
 return (0);
 }
