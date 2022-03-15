@@ -15,8 +15,9 @@ int main()
      a = b;
      b = c;
      count++;
-     printf("%c", ',');
+     printf("%c%c", ',', ' ');
    }
+printf("%d", a);
 printf("\n");
 return (0);
 }
