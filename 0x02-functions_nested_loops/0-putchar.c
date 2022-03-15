@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 /**
  *
@@ -6,7 +5,15 @@
  *Return: Always 0 (Success)
  */
 
-int _putchar(char c)
+int main(void)
 {
-return (write(1, &c, 1));
+int i;
+char a[] = "_putchar";
+
+for (i = 0; i < 9; i++)
+}
+_putchar(p[i]);
+}
+_putchar('\n');
+return (0);
 }
