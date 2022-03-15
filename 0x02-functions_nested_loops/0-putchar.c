@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- *
  * main - writes _putchar to standard output
+ *
  *Return: Always 0 (Success)
  */
 
