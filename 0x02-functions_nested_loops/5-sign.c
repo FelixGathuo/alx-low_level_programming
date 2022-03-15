@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_sign - prints sign of a number
- *@c: The character in ASCII code
+ *@n: The input number
  * Return: Always 0
  */
 int print_sign(int n)
@@ -9,17 +9,17 @@ int print_sign(int n)
 if (n >= 1)
 {
 return (1);
-_putchar('+');
+_putchar(43);
 }
 else if (n == 0)
 {
 return (0);
-_putchar('0');
+_putchar(48);
 }
 else
 {
 return (-1);
-_putchar('-');
+_putchar(45);
 }
 _putchar('\n');
 }
