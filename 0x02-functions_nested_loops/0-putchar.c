@@ -11,8 +11,8 @@ int i;
 char a[] = "_putchar";
 
 for (i = 0; i < 9; i++)
-}
-_putchar(p[i]);
+{
+_putchar(a[i]);
 }
 _putchar('\n');
 return (0);
