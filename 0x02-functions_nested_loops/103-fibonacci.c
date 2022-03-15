@@ -18,6 +18,6 @@ sum += c;
 a = b;
 b = c;
 }
-printf("%lu", sum);
+printf("%lu\n", sum);
 return (0);
 }
