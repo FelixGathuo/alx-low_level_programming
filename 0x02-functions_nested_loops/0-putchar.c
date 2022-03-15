@@ -2,17 +2,11 @@
 #include "main.h"
 /**
  *
- * main - Entry point
+ * main - _putchar - writes the character c to stdout
  *Return: Always 0 (Success)
  */
-int main(void)
-{
 
-char a[] = "_putchar\n";
-int i;
-for (i = 0; i < 9; i++)
+int _putchar(char c)
 {
-_putchar(a[i]);
-}
-return (0);
+return (write(1, &c, 1));
 }
