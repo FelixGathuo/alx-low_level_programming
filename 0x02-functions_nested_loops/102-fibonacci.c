@@ -17,6 +17,6 @@ int main()
      count++;
      printf("%c", ',');
    }
-printf('\n');
+printf("\n");
 return (0);
 }
