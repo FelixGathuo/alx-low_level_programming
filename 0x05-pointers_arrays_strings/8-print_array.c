@@ -4,7 +4,7 @@
 *@a: array
 *@n: number of elements
 **/
-void print_array(int *a, int n);
+void print_array(int *a, int n)
 {
 	for(int b = 0; b < n; b++)
 	{
