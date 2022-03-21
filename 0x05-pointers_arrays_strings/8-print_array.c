@@ -6,7 +6,8 @@
 **/
 void print_array(int *a, int n)
 {
-	for(int b = 0; b < n; b++)
+	int b;
+	for(b = 0; b < n; b++)
 	{
 		_putchar(*(a + b));
 	}
