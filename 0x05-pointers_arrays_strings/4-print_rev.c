@@ -2,7 +2,7 @@
 #include <unistd.h>
 /**
 * _puts - prints in stdout
-* @str: character
+* @s: character
 *Return: none
 */
 void print_rev(char *s)
