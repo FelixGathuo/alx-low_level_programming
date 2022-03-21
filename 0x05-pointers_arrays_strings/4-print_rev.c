@@ -1,7 +1,7 @@
 #include "main.h"
 #include <unistd.h>
 /**
-* _puts - prints in stdout
+* print_rev - prints in reverse
 * @s: character
 *Return: none
 */
