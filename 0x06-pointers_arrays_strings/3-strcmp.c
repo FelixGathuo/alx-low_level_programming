@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*int _strcmp - copy string
+*_strcmp - copy string
 *@s1: first string
 *@s2: second string
 *Return: s1
