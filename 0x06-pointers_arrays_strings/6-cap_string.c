@@ -8,7 +8,6 @@ char *cap_string(char *n)
 {
 	int i;
 
-	i = 0;
 	if (n[0] >= 'a' && n[0] <= 'z')
 	{
 		n[0] = n[0] - 32;
@@ -36,5 +35,5 @@ char *cap_string(char *n)
 				}
 		}
 	}
-	return (0);
+	return (n);
 }
