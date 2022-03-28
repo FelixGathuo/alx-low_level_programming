@@ -1,1 +1,1 @@
-read me for 0x07-pointers_arrays_strings
+read me for more pointers, arrays and strings.
