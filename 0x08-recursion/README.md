@@ -1,1 +1,3 @@
-recursions and puts
+recursions 0x08
+factorial
+puts
