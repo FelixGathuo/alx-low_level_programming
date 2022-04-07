@@ -1,1 +1,2 @@
-ead me for more malloc
+read me for more malloc
+arrays
