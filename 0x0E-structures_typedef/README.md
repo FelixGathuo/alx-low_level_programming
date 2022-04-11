@@ -1,1 +1,1 @@
-readme for structures
+readme for structures and typedef
