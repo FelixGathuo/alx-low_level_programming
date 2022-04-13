@@ -1,1 +1,1 @@
-Read me for pointers to
+Read me for pointers to functions
