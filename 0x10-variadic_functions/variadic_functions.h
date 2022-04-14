@@ -1,19 +1,19 @@
-#ifndef variadic_functions_h
-#define variadic_functions_h
+#ifndef VARFUNC
+#define VARFUNC
+#include <stdarg.h>
 int sum_them_all(const unsigned int n, ...);
 void print_numbers(const char *separator, const unsigned int n, ...);
 void print_strings(const char *separator, const unsigned int n, ...);
 void print_all(const char * const format, ...);
 /**
- * struct op - Struct op
+ * struct typ - Struct operators
  *
- * @op: The operator
- * @f: The function associated
+ * @c: Char
+ * @tp: The function associated
  */
-typedef struct op
+typedef struct typ
 {
-	char *op;
-	int (*f)(int a, int b);
-} op_t;
-
+	char *c;
+	void (*tp)(va_list var);
+} typ_t;
 #endif
