@@ -1,0 +1,7 @@
+# thaks csheet.com/en/latest/notes/c_make.html
+CC=gcc
+SRC=main.c school.c
+OBJ=$(SRC:.c=.o)
+NAME=school
+all: $(OBJ)
+		$(CC) $(OBJ) -o $(NAME)
